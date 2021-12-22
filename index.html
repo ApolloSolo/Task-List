@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>To Do List</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <h1>Task-List</h1>
+
+        <div class="list-container">
+            
+            <div class="form-container">
+                <form id="form">
+                    <label class="text">Add Task</label>
+                    <input type="text" name="add-todo" id="add-todo">
+                    <button>Submit</button>
+                </form>
+            </div>
+
+            <div class="list">
+                <!-- list items added here via JS -->
+            </div>
+
+        </div>
+        <button class="btn">Delete</button>
+    </div>
+    <script src="app.js" async defer></script>
+</body>
+
+</html>
