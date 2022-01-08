@@ -5,9 +5,9 @@ let btn =document.querySelector('.btn')
 
 function addLI(todo) {
     let newLI = document.createElement("p");
-    let dt = date();
+    let today = new Date();
     newLI.classList.add('text');
-    newLI.innerText = todo + "\n" + "- "+dt+" -";
+    newLI.innerText = todo + "\n" + "- "+today.toLocaleDateString("en-US")+" -";
     listGrid.append(newLI);
 }
 
